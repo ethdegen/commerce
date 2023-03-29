@@ -32,4 +32,4 @@ RUN apt update && apt install -y docker-ce-cli
 
 # Install NodeJS libraries
 
-RUN npm install -g eslint pnpm npm
+RUN npm install -g eslint npm

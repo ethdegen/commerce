@@ -162,7 +162,7 @@ BigCommerce team has been notified and they plan to add more details about this 
 </details>
 
 <details>
-<summary>When run locally I get `Error: Cannot find module '...@vercel/commerce/dist/config'`</summary>
+<summary>When run locally I get `Error: Cannot find module '...@commerce/dist/config'`</summary>
 
 ```bash
 commerce/site
@@ -172,7 +172,7 @@ $ next dev
 ready - started server on 0.0.0.0:3000, url: http://localhost:3000
 info  - Loaded env from /commerce/site/.env.local
 error - Failed to load next.config.js, see more info here https://nextjs.org/docs/messages/next-config-error
-Error: Cannot find module '/Users/dom/work/vercel/commerce/node_modules/@vercel/commerce/dist/config.cjs'
+Error: Cannot find module '/Users/dom/work/vercel/commerce/node_modules/@commerce/dist/config.cjs'
     at createEsmNotFoundErr (node:internal/modules/cjs/loader:960:15)
     at finalizeEsmResolution (node:internal/modules/cjs/loader:953:15)
     at resolveExports (node:internal/modules/cjs/loader:482:14)
@@ -184,7 +184,7 @@ Error: Cannot find module '/Users/dom/work/vercel/commerce/node_modules/@vercel/
     at require (node:internal/modules/cjs/helpers:102:18)
     at Object.<anonymous> (/Users/dom/work/vercel/commerce/site/commerce-config.js:9:14) {
   code: 'MODULE_NOT_FOUND',
-  path: '/Users/dom/work/vercel/commerce/node_modules/@vercel/commerce/package.json'
+  path: '/Users/dom/work/vercel/commerce/node_modules/@commerce/package.json'
 }
 error Command failed with exit code 1.
 info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
