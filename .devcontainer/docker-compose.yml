@@ -1,0 +1,22 @@
+version: "3.7"
+
+services:
+    workspace:
+        init: true
+        build: "."
+        volumes:
+            - "/var/run/docker.sock:/var/run/docker.sock"
+            - "./..:/workspace"
+            - "postgres_data:/var/lib/postgresql/data"
+            - "workspace_node_modules:/workspace/node_modules"
+            - "workspace_site_node_modules:/workspace/site/node_modules"
+        ports:
+            - "3000:3000"
+            - "5432:5432"
+        environment:
+            - POSTGRES_PASSWORD=commerce
+
+volumes:
+    postgres_data:
+    workspace_node_modules:
+    workspace_site_node_modules:

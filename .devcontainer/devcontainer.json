@@ -1,0 +1,19 @@
+{
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "bradlc.vscode-tailwindcss",
+                "csstools.postcss",
+                "dbaeumer.vscode-eslint",
+                "eamodio.gitlens",
+                "esbenp.prettier-vscode",
+                "ms-azuretools.vscode-docker",
+                "ms-vscode.vscode-typescript-next"
+            ]
+        }
+    },
+    "dockerComposeFile": ["./docker-compose.yml"],
+    "service": "workspace",
+    "shutdownAction": "stopCompose",
+    "workspaceFolder": "/workspace"
+}
