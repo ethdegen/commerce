@@ -21,10 +21,10 @@
       "@config/*": ["config/*"],
       "@assets/*": ["assets/*"],
       "@components/*": ["components/*"],
-      "@commerce": ["../packages/commerce/src"],
-      "@commerce/*": ["../packages/commerce/src/*"],
-      "@framework": ["../packages/local/src"],
-      "@framework/*": ["../packages/local/src/*"]
+      "@commerce": ["lib/commerce"],
+      "@commerce/*": ["lib/commerce/*"],
+      "@framework": ["lib/framework"],
+      "@framework/*": ["lib/framework/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.d.ts", "**/*.ts", "**/*.tsx", "**/*.js"],
